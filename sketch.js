@@ -139,7 +139,7 @@ function mouseReleased(){
 function keyPressed(){
 	if(keyCode === 32)
 	{
-		Matter.Body.setPosition(player.body,{x:235, y:420})
-		chain.attach(player.body);
+		Matter.Body.setPosition(ball.body,{x:235, y:420})
+		chain.attach(ball.body);
 	}
 }
